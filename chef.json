@@ -1,0 +1,13 @@
+{
+  "jenkins": {
+    "server": {
+      "port": "8080"
+    }
+  },
+
+  "run_list": [
+    "jenkins::server",
+    "iptables"
+  ]
+}
+
